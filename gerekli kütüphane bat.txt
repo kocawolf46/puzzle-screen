@@ -1,2 +1,11 @@
 pip install opencv-python mediapipe numpy
 python 3.14
+
+pip uninstall mediapipe protobuf -y
+
+pip install mediapipe protobuf
+
+
+error
+pip uninstall mediapipe -y
+pip install mediapipe==0.10.14
